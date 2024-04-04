@@ -40,7 +40,6 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     echo "Login successful";
     // Start session and store user data if needed
-    header("Location: index.html");
 } else {
     echo "Invalid username or password";
 }
